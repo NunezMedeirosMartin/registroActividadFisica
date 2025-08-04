@@ -1,8 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/registroActividadFisica/',
+
+
+  base: '/registroActividadFisica/',  // La carpeta donde se aloja tu repo en GitHub Pages
+
 })
+
