@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  display: block; 
+  background: url('../public/assets/img/fondo.jpg');
+  min-height: 100vh; 
+  padding: 20px;
+  padding-top: 70px;
+  overflow-x: hidden;
+}
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 70%;
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 20px;
+}
+.logo {
+  width: 50px;
+  margin-bottom: 10px;
+}
+input, select, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+button {
+  background: #ff5733;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background: #e04e2f;
+}
+.registro {
+ flex-direction: row;
+ display: flex;
+}
+
+
+
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
