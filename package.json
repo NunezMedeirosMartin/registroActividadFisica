@@ -1,5 +1,6 @@
 {
   "name": "aplication",
+  "homepage": "https://nunezmedeirosmartin.github.io/registroActividadFisica",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,6 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.1",
