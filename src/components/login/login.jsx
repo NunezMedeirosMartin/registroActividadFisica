@@ -36,7 +36,7 @@ const Login = () => {
   return (
     <div className="container">
       <div className="inicioSesion">
-        <img src="/assets/img/fondochico.jpg" alt="Logo de Fitness" className="logo" />
+        <img src={`${import.meta.env.BASE_URL}assets/img/fondochico.jpg`} alt="Logo de Fitness" className="logo" />
         <h2>Login</h2>
       </div>
       <form onSubmit={handleSubmit}>
