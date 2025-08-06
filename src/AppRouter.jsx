@@ -22,7 +22,7 @@ const AppRouter = () => {
     <>
     <ToastContainer position="top-right" autoClose={3000} />
     <Provider store={store}> 
-      <Router>
+      <Router basename="/registroActividadFisica">
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/registro" element={<Registro />} />
