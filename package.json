@@ -1,8 +1,8 @@
 {
   "name": "aplication",
-  "homepage": "https://nunezmedeirosmartin.github.io/registroActividadFisica",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://nunezmedeirosmartin.github.io/registroActividadFisica",
   "type": "module",
   "scripts": {
     "dev": "vite",
